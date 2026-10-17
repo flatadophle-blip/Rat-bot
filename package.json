@@ -1,0 +1,16 @@
+{
+  "name": "telegram-content-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that sends videos + APK on /start from a DB channel. Hosted on Vercel.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
